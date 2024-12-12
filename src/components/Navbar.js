@@ -33,10 +33,10 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
         <Link 
   to="/"
-  className="flex items-center space-x-2 text-white hover:text-blue-400 transition-colors ml-10"
+  className="flex items-center space-x-2 text-white hover:text-blue-400 transition-colors md:space-x-3"
 >
-  <ServerIcon className="h-10 w-10 text-blue-500" />
-  <span className="font-bold text-xl">ServerMaster</span>
+  <ServerIcon className="h- w-8 text-blue-500" />
+  <span className="font-bold text-xl"></span>
 </Link>
 
           <div className="flex items-center justify-center flex-1 max-w-md mx-auto">
