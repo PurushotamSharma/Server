@@ -10,7 +10,7 @@ const ServerManagement = () => {
   const handleAddServer = async () => {
     try {
       // API call to add server
-      const response = await fetch('http://localhost:5000/api/servers', {
+      const response = await fetch('https://server-new-backend.vercel.app/api/servers', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -29,7 +29,7 @@ const ServerManagement = () => {
   const handleAddCommand = async () => {
     try {
       // API call to add command
-      const response = await fetch('http://localhost:5000/api/commands', {
+      const response = await fetch('https://server-new-backend.vercel.app/api/commands', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
